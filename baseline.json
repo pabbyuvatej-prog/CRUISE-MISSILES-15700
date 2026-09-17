@@ -1,0 +1,79 @@
+{
+  "geometry": {
+    "L1_m": 0.12,
+    "theta1_deg": 15.0,
+    "L2_m": 0.18,
+    "theta2_deg": 8.784531,
+    "Rmax_m": 0.06,
+    "reference_area_m2": 0.01131,
+    "reference_chord_m": 0.3
+  },
+  "mass_properties": {
+    "mass_kg": 0.525,
+    "cg_m": [
+      0.157238,
+      0.0,
+      0.00381
+    ],
+    "inertia_kgm2": [
+      [
+        0.00049138,
+        0,
+        -0.00051552
+      ],
+      [
+        0,
+        0.004583,
+        0
+      ],
+      [
+        -0.00051552,
+        0,
+        0.0045126
+      ]
+    ]
+  },
+  "flight_condition": {
+    "altitude_m": 10000.0,
+    "velocity_mps": 1200.0,
+    "gamma": 1.4,
+    "R_JkgK": 287.05,
+    "T_K": 223.26,
+    "rho_kgm3": 0.413511,
+    "p_Pa": 26499.0,
+    "Mach": 4.0062,
+    "dynamic_pressure_Pa": 297720.0
+  },
+  "aero": {
+    "CD0": 0.208152,
+    "CL0": 0.0,
+    "Cm0": 0.0,
+    "CL_alpha_per_rad": -0.228236,
+    "Cm_alpha_per_rad": 0.0,
+    "CL_delta_per_rad": 0.15,
+    "CD_delta_per_rad": 0.05,
+    "Cm_delta_per_rad": -0.5,
+    "Cm_q_per_rad": -2.0
+  },
+  "controller": {
+    "Kp_s": 0.5,
+    "Kd_s2": 0.01,
+    "tau_s": 0.005,
+    "zeta": 1.0,
+    "delta_max_rad": 0.261799,
+    "delta_rate_max_rad_s": 2.617994
+  },
+  "thermal": {
+    "stored_energy_J": 10000.0,
+    "efficiency": 0.85,
+    "pulse_s": 0.05,
+    "deposited_power_W": 170000.0
+  },
+  "fsi": {
+    "relaxation": 0.25
+  },
+  "chemistry": {
+    "enabled": false,
+    "model": "reduced finite-rate air chemistry"
+  }
+}
