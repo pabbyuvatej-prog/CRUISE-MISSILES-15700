@@ -30,3 +30,5 @@ Results are written to `outputs/`. This repository is a **numerical research mod
 ## Important
 
 Parameters marked PARAMETRIC are assumptions/envelopes from the project record. Numerical convergence means the implemented equations converge; it does not establish physical validation.
+python -m pip install -r requirements.txt
+python run_simulation.py
